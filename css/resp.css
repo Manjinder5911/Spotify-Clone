@@ -1,0 +1,142 @@
+@media only screen and (min-width:390px) and (max-width:580px){
+    h2{
+        font-size: 1.5rem;
+    }
+    .songItem{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .songItemPlay{
+        padding-left: 5px;
+    }
+    .bottom{
+        height: 60px;
+    }
+    #myProgressBar{
+        height: 2px;
+        width: 90vw;
+        cursor: pointer;
+    }
+    .songInfo{
+        left: 3%;
+    }
+    #playerGif{
+        width: 40px;
+    }
+    #songBottom{
+        font-size: 0.9rem;
+    }
+    .icons{
+        margin-top: 8px;
+    }
+    .icons i{
+        cursor: pointer;
+        padding: 0px 1px;
+        font-size: 2rem;
+    }
+    .volumeDiv{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        position: absolute;
+        right: 3%;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .volumeDiv span{
+        padding-bottom: 7px;
+        font-size: 0.9rem;
+    }
+    #volume{
+        height: 2px;
+        width: 70px;
+    }
+}
+@media only screen and (max-width:390px) {
+    nav ul {
+        height: 55px;
+    }
+    nav ul li {
+        padding: 0px 7px;
+    }
+    .brand {
+        font-size: 1rem;
+    }
+    .brand img {
+        width: 35px;
+        padding: 0px 5px;
+    }
+    .container{
+        padding: 34px 15px;
+        width: 85%;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .songItem{
+        
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 8px 0px;
+    }
+    .songItem img {
+        width: 29px;
+        height: 29px;
+        margin: 0px 5px;
+    }
+    .songItemPlay{
+        padding-left: 5px;
+    }
+    .songName{
+        font-size: 0.8rem;
+    }
+    .timeStamp {
+        margin: 0px 5px;
+        font-size: 0.7rem;
+    }
+    .bottom{
+        height: 60px;
+    }
+    #myProgressBar{
+        height: 2px;
+        width: 90vw;
+        cursor: pointer;
+    }
+    .songInfo{
+        display: flex;
+        flex-direction: column-reverse;
+        left: 3%;
+        margin-top: 18px;
+    }
+    #playerGif {
+        display: block;
+        margin: auto;
+        width: 26px;
+        height: 10px;
+    }
+    #songBottom{
+        font-size: 0.6rem;
+    }
+    .icons{
+        margin-top: 8px;
+    }
+    .icons i{
+        cursor: pointer;
+        padding: 0px 1px;
+        font-size: 1.5rem;
+    }
+    .volumeDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 3%;
+        font-family: 'Varela Round', sans-serif;
+        margin-top: 8px;
+    }
+    .volumeDiv span{
+        padding-bottom: 7px;
+        font-size: 0.6rem;
+    }
+    #volume{
+        height: 2px;
+        width: 60px;
+    }
+}

@@ -77,6 +77,20 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.8s ease-in;
 }
+.volumeDiv{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    font-family: 'Varela Round', sans-serif;
+}
+.volumeDiv span{
+    padding-right: 4px;
+}
+#volume{
+    height: 5px;
+    width: 100px;
+}
 h2{
     font-size: 1.9rem;
     margin: 9px 0px ;
@@ -109,3 +123,4 @@ h2{
     font-size: 1.4rem;
     cursor: pointer;
 }
+
