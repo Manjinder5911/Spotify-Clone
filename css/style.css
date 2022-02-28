@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+/* font-family: 'Varela Round', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(226, 223, 223);
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;  
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background: black;
+    color: white;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    width: 50px;
+    padding: 0px 8px;
+}
+.container{
+    min-height: 65vh;
+    background:url('../img/bg1.jpg') no-repeat center center/cover;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+    padding: 34px;
+    overflow-y:auto;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 80px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    
+}
+#myProgressBar{
+    height: 5px;
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 0px 3px;
+    font-size: 2.3rem;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+h2{
+    font-size: 1.9rem;
+    margin: 9px 0px ;
+}
+.songItemContainer{
+    margin-top: 30px;
+}
+.songItem {
+    height: 40px;
+    display: flex;
+    background-color: white;
+    /* width: 90%; */
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+    margin: 12px 0px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0px 23px;
+    border-radius: 34px;
+}
+.timeStamp{
+    margin: 0px 23px ;
+    display: flex;
+    align-items: center;
+}
+.timeStamp i{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
